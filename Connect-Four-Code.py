@@ -26,6 +26,10 @@ def main():
             if(winner == None):
                 turnend = False
                 while(turnend == False):
+                    if(i == "yellow"):
+                        print("Yellow player's turn.")
+                    if(i == "red"):
+                        print("Red player's turn.")
                     p = win.getMouse()
                     x = p.getX()
                     y = p.getY()
